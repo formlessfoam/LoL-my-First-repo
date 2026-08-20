@@ -1,8 +1,6 @@
 # LoL my First Repo
+It's computer-vision project that turns webcam expressions and hand gestures into meme reactions. It uses OpenCV for the camera interface and MediaPipe FaceMesh and Hands for landmark-based detection.
 
-**LoL my First Repo** is a real-time computer-vision project that turns webcam expressions and hand gestures into meme reactions. It uses OpenCV for the camera interface and MediaPipe FaceMesh and Hands for landmark-based detection.
-
-The project was built as a beginner-friendly computer-vision experiment: show a reaction, hold it briefly, and the program displays the matching meme in a separate window.
 
 ## Features
 
@@ -23,13 +21,8 @@ The project was built as a beginner-friendly computer-vision experiment: show a 
 | GTFO | Middle finger extended, with the other fingers curled | `assets/new/gtfo.jpg` |
 | 67 | Both hands raised, with at least three fingers extended on each hand | `assets/new/sixty_seven.jpg` |
 | Blep | Wide open mouth with squinted eyes; the tongue cue is approximated from face geometry | `assets/new/blep.jpg` |
-| Smile | Wide open smile | `assets/new/109fb257daabe2f3db63bd7bc1944934.jpg` |
-| Thinking | Looking upward | `assets/new/maxresdefault.jpg` |
-| Thumbs up | Thumb raised with the other fingers curled | `assets/new/7dc6efb0fe7548ae00dd6143e739f630.jpg` |
-| Timeout | Two hands form a T shape | `assets/new/bc3d38ffc8a2e9a574bb54d3bffa5445.jpg` |
 
-The four custom reaction images included in this repository are `love.jpg`, `gtfo.jpg`, `sixty_seven.jpg`, and `blep.jpg`. The original smile, thinking, thumbs-up, and timeout filenames are supported if you add those images to `assets/new/`.
-
+The four custom reaction images included in this repository are `love.jpg`, `gtfo.jpg`, `sixty_seven.jpg`, and `blep.jpg`.
 ## Requirements
 
 - Windows 10 or Windows 11.
@@ -37,7 +30,8 @@ The four custom reaction images included in this repository are `love.jpg`, `gtf
 - A working webcam.
 - Permission for Python or your terminal to access the camera.
 
-> Use a Windows Command Prompt or PowerShell window. Do not run the program from WSL2 when using a Windows webcam.
+> Use a Windows Command Prompt or PowerShell window.
+> Do not run the program from WSL2 when using a Windows webcam.
 
 ## Installation
 
